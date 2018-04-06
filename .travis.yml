@@ -1,0 +1,14 @@
+language: java
+jdk:
+- oraclejdk8
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIAJT5Y7EP53SUPVEKQ
+  secret_access_key:
+    secure: W7LO5rILvgfPOiT8SWtQUDbmQE8P9/Q6b4BfYP2Wfjzny+3mY4XsmrGk/1Y1+e1EqyqpT/G8yAIAUtQ//139CU3eQadLyFNjW3JTqPJcQh+KseXJLH7QlHxOWO1p7yUgr8lSZfOiwIWHuQPHoirunsL1lxZQOtq6M4zTp/yciwlecfZiXxxnYgBZ/+BB90Oeu8Hz+XME4PoOVktBVZzbAayLulFvxIcvfBXkEUbRbJWBodZqGIfyuaVO4PAs43xnVFW+60cXzkT45wUsqrY3JdCy0n8FiW6RlqaiIEmHXhvinFsjzYL7cJy/1av9W1+Ue8D0xuHIUX7gi2/SxtZpOvthcJwysa7ExFR9NhCNiUXgF+Iu/DB9CcKMQZto/mk+Ch30xtE2XY9+60wrnYCjYLS5aRZxMjxgNoEOxxfluldQ83yWbwTo7LUSP4UVItdnwJQLWF4Otwnst2AKxpXBDPVpdHkPh7jPFw8jTA0H5KCUzE4O8Kz18iowVmIVfqghCRG7VWQ1sftCrttFT6Lm+CjFrq1YuYqJusRQBeMaQDZNcF4+DiVLcm0yTDaL2FbapFeHBIPDq1gNWehBbT4WtkGXwAneecphOXDBXA+vebeDbJB7uM+ys/btB4Nlm06JGTCTc/Zcbsh0x3OcA3NUsSecuQ5o4MhDTtkoFI1EcSI=
+  region: us-east-1
+  app: tree-style-notes
+  env: tree-style-notes-environment
+  bucket_name: tree-style-notes-bucket
+  on:
+    repo: danielmartincraig/TreeStyleNotes
