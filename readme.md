@@ -24,6 +24,24 @@ Current Stories:
  
 *I want to use Spring Boot and Thymeleaf to form and serve the page content* 
 
+| Task                                             | Notes                                              | Time Estimate | Time Remaining |
+| -------------------------------------------------| ---------------------------------------------------| --------------| ---------------|
+| Write Node Class                                 |                                                    |               |                |
+| Write Color Class                                |                                                    |               |                |
+| Learn About Spring                               |                                                    |               |                |
+| Learn About Thymeleaf                            |                                                    |               |                |
+| learn to form DB calls                           | Learn to perform reads and writes programmatically |               |                |
+| Create UI Methods                                |                                                    |               |                |
+| Learn to integrate UI elements w/ backend stuff  | Perhaps with listeners?                            |               |                | 
+| Learn about TL foreach, other control structures |                                                    |               |                |
+| Write TL templates                               |                                                    |               |                |
+
+
+| Task | Notes | Time Estimate | Time Remaining |
+| -----| ------| --------------| ---------------|
+||||
+
+
 *I want to use CSS to style my page* 
 
 [![Build Status](https://travis-ci.org/danielmartincraig/TreeStyleNotes.svg?branch=master)](https://travis-ci.org/danielmartincraig/TreeStyleNotes)
