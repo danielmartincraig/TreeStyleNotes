@@ -1,3 +1,12 @@
+    "For some years I have been successfully using the following rule of thumb for scheduling a software task:
+        ⅓ planning
+        ⅙ coding
+        ¼ component test and early system test
+        ¼ system test, all components in hand."
+        
+    Frederick P. Brooks, Jr.
+
+
 Tree Style Notes
 ----------------------
 
